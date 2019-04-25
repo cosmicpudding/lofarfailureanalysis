@@ -1,0 +1,20 @@
+PROJECT CODE,SASid,FAILURE TYPE,,FAILURE CATEGORY,SUBCATEGORY,DATE,OBSERVING HOURS LOST,LST RANGE,IS THIS A REPEAT?  (Y/N),PI ACCEPTED DATA ANYWAY (Y/N),NOTES
+LC9_021,"643551,643547","oscillating tile in CS017, CS103",,STATION,OSCILLATING,2018-03-01,0.5,1-3,n,n,
+LC9_030,"644217,644221,644227","interrupted by triggered run, bad 1st calib, no 2nd calib scan",,SYSTEM,DATA-LOSS,2018-03-08,8.33,22-6,n,n,"interrupted by triggered run, bad 1st calib, no 2nd calib scan"
+LC9_002,-,Aborted observation for Pulsar,,SYSTEM,SETUP,2018-02-09,1,23,n,n,
+LC9_023,645501,start/stop times were changed for visitors demonstration,,HUMAN,SETUP,2018-03-28,1,2-4,n,n,
+LC9_023,"644625,644629,644633",observations were not scheduled,,HUMAN,SETUP,2018-03-28,3,18-22,n,n,Rescheduled for April 13
+LC9_030,"646479,646483,646489",calibrator observations were not scheduled properly (system glitch),,SYSTEM,FAULT,2018-04-04,8.33,9-16,n,n,Rescheduled for April 18
+LC9_030,"648759,648763,648769",impact of network issues undervaluated,,HUMAN,FAULT,2018-04-12,8.33,10-18,n,n,Resceduled for April 25
+LC9_030,651128/32/38,Superterp with a microsec delay offset,,STATION,FAULT,2018-04-25,8.33,10-18,y,n,Rescheduled for May 10
+LC9_023,"646467, 471, 475",Superterp stations and CS401 had 1.4 usc delay offset,,STATION,FAULT,2018-04-25,3,14-17,n,n,The data must be removed from the LTA
+LC9_023,"651160, 164, 168, 172",oscillating tile in CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-27,4,21-1,n,n,
+LC9_023,"651176, 180",oscillating tiles in CS004 and CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-27,2,13-15,n,n,
+LC9_023,"651184, 188, 192",oscillating tiles in CS004 and CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-28,3,16-19,n,n,
+LC9_023,651196,oscillating tile in CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-28,1,10-11,n,n,
+LC9_023,"651200, 204, 208",oscillating tile in CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-28,3,12-15,n,n,
+LC9_023,651212,oscillating tile in CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-27,0.25,17-18,n,n,
+LC9_023,651216,oscillating tile in CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-27,0.25,19-20,n,n,
+LC9_023,651220,oscillating tiles in CS004 and CS006 + low sensitivity of the Superterp stations,,STATION,OSCILLATING,2018-04-28,0.25,7-8,n,n,
+LC9_002,649603,Superterp stations and CS401 had 1.4 usc delay offset,,STATION,FAULT,2018-04-29,6,0-5,n,-,Check for PI accepted data
+LC9_018,648947,oscillating tile + Superterp stations and CS401 had 1.4 usc delay offset,,STATION,FAULT,2018-04-28,0.17,18,n,n,Rescheduled May 8

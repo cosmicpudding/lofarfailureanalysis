@@ -1,0 +1,23 @@
+PROJECT CODE,SASid,FAILURE TYPE,,FAILURE CATEGORY,SUBCATEGORY,DATE,OBSERVING HOURS LOST,LST RANGE,IS THIS A REPEAT?  (Y/N),IS THIS AN RO FAILURE ONLY (Y/N),NOTES
+LT5_004,604888,dataloss,,CEP4,DATA-LOSS,2017-09-01,1,12,N,N,
+LT5_004,"604912,604916,604920,604924",RFI,,ENVIRONMENT,RFI,2017-09-03,4,13-15,N,N,
+LT5_004,606856,"lots of RFI, possibly Solar",,ENVIRONMENT,RFI,2017-09-08,1,7,N,N,
+LT5_004,-0,Oscillating tile,,STATION,OSCILLATING,2017-09-15,1,13,N,N,
+LC8_030,610388,CBT crash due to power outage at CIT Groningen,,COBALT,CRASH,2017-09-19,4,6-14,N,y,PI accepted the data and 4 hrs missing will be resceduled
+LT5_004,610496,oscillating HBA tile,,STATION,OSCILLATING,2017-09-21,2,23,N,N,
+LT5_004,610516,oscillating HBA tile,,STATION,OSCILLATING,2017-09-22,2,21,N,N,
+LC8_024,612108,scheduler did not pick up approved observation,,SYSTEM,FAULT,2017-09-30,0.1666,5,N,Y,"only end calibrator, main run could be fine, and calibrate-able with start calibrator -- to be checked and confirmed by PI"
+LT5_009,613000,end calibrator not (re-)scheduled or not picked up by the system,,SYSTEM,FAULT,2017-10-11,0.1666,19,N,Y,"only end calibrator, main run could be fine, and calibrate-able with start calibrator -- to be checked and confirmed by PI"
+LC8_011,619360,Observation interrupted by starting a stationtest accidentally,,HUMAN,SETUP,2017-10-11,0,9-17,N,Y,We scheduled an additional observation
+LC8_035,612136,Oscillating tile CS003,,STATION,OSCILLATING,2017-10-20,0.25,12,N,N,
+LC8_035,620486,Oscillating tile CS003,,STATION,OSCILLATING,2017-10-20,0.25,12,N,N,
+LC5_005,620666-620592,feedback issue when importing ,,SYSTEM,FAULT,2017-10-20,5,7-11,N,N,when importing the pipelines did not get a predecessor attached. 
+LC8_024,620716,Oscillating tile CS003,,STATION,OSCILLATING,2017-10-22,5,3-8,N,N,
+LC8_024,621160 621162 621164,"Stationtest moved, but old station test not cancelled properly.",,HUMAN,SETUP,2017-10-24,4.33,7-10,N,N,"Filler time, not yet in modified"
+LC8_018,621166 621168 621170 621172,"Stationtest moved, but old station test not cancelled properly.",,HUMAN,SETUP,2017-10-24,1.33,2-6,N,N,
+LC8_018,"624496/98, 625000/12",oscillating tile CS003,,STATION,OSCILLATING,2017-10-28,1.33,"11,13,16,20",N,N,
+LT5_004,"621246,621250",oscillating HBA tile,,STATION,OSCILLATING,2017-10-28,2,18-19,N,N,
+LC8_035,620474,Oscillating tile,,STATION,OSCILLATING,2017-10-29,0.25,12,N,N,
+LC8_024,620706 + calibrators,oscillating tile CS003,,STATION,OSCILLATING,2017-10-29,4.33,03/07/17,,N,
+LC8_015,626594 626592,"strong source in sidelobe, wiping out weak exoplanet signal",,ENVIRONMENT,RFI,2017-11-11,3.5,7,N,N,"good for RO, rejected by PI"
+LC8_018,626626,oscillating tile CS201,,STATION,OSCILLATING,2017-11-14,0.33,7,Y,N,"PI says ""it's crap"" (2017-11-15T11:01 UT)"

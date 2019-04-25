@@ -1,0 +1,9 @@
+PROJECT CODE,SASid,FAILURE TYPE,FAILURE CATEGORY,SUBCATEGORY,DATE,OBSERVING HOURS LOST,LST RANGE,IS THIS A REPEAT?  (Y/N),PI ACCEPTED DATA ANYWAY (Y/N),NOTES,THIS,COLUMN,IS ,ANNOYING
+LT10_010,689418/22/28,Triggered observation,SYSTEM,OTHER,2018-11-23,8.33,12-20,N,N,Main run interrupted by LC11_002 triggered run,,TOTAL LOST ->,40.9,
+LC11_004,687588/82/78,Data loss due to fibrecut,SYSTEM,DATA-LOSS,2018-11-22,8.33,22-6,N,N,,,,,
+#LT10_010,,Bugs in the text generator tool,HUMAN,SETUP,2018-10-12,4.33,22-2,N,N,the block was also misplaced,,,,
+LT10_005,"689850, 689854",CS002 flagging 100% of data,STATION,DATA-LOSS,2018-12-04,2,9-11,N,N,,,,,
+LT10_005,691410,Aborted by Cobalt,COBALT,CRASH,2018-12-14,1,10-11,N,N,,,,,
+LC11_020,691396/400/406,Aborted by Cobalt,COBALT,CRASH,2018-12-15,8.33,2-10,N,N,main run failed rescheduled Jan 25th,,,,
+LT10_004,692520,Aborted,SYSTEM,CRASH,2019-01-16,0.25,14,N,N,,,,,
+LT10_010,695133/37/43,wrong system specification,HUMAN,SETUP,2019-02-11,8.33,6-14,N,N,when scheduled only CS stations were selected,,,,
