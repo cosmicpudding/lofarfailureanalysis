@@ -6,7 +6,6 @@ __version__ = "1.0"
 
 import os
 import sys
-<<<<<<< HEAD
 import datetime
 from astropy.io import ascii
 import numpy as np
@@ -16,23 +15,6 @@ from pylab import *
 import pandas as pd
 
 def plot_historical_failures(files,save_loc,cyc):
-=======
-from astropy.io import ascii
-import datetime
-
-# Plotting imports
-from numpy import *
-from math import *
-import matplotlib
-matplotlib.rcParams["interactive"] = True
-from pylab import *
-from matplotlib import rc
-rc('text', usetex=True)
-rc('font',**{'family':'serif','serif':['serif'],'size':10})
-import pandas as pd
-
-def plot_historical_failures(files):
->>>>>>> 716f2bcdf093229e40b16cb7ec73660d42d44bdf
 
 	dates = []
 	hours = []
@@ -87,9 +69,5 @@ def plot_historical_failures(files):
 
 	# Current date saving
 	today = str(datetime.datetime.utcnow().date())
-<<<<<<< HEAD
 	savefig('%s/%s_historicalfailures_%s.png' % (save_loc,''.join(cyc.split()),today),bbox_inches='tight',dpi=200)
-=======
-	savefig('historicalfailures_%s.png' % today,bbox_inches='tight',dpi=200)
->>>>>>> 716f2bcdf093229e40b16cb7ec73660d42d44bdf
 
