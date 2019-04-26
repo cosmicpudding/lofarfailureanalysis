@@ -1,0 +1,17 @@
+Timestamp,Email Address,Date of observation:,Project code:,SAS ID:,Main failure category:,Sub-category:,Brief description of the cause of the failure:,Number of hours lost:,LST range of hours lost:,Is this a repeat?,Did the PI accept it anyway?,Any further comments:
+2/21/2019 21:09:23,moss@astron.nl,11/23/2018,LT10_10,"689418, 689422, 689428",SYSTEM,OTHER,Triggered observation,8.33,12-20,No,No,Main run interrupted by LC11_002 triggered run
+2/21/2019 21:12:39,moss@astron.nl,11/22/2018,LC11_004,"687588, 687582, 687578",SYSTEM,DATA-LOSS,Data loss due to fibrecut,8.33,22-6,No,No,
+2/21/2019 21:13:46,moss@astron.nl,10/12/2018,LT10_010,0,HUMAN,SETUP,Bugs in the text generator tool,4.33,22-2,No,No,the block was also misplaced
+2/21/2019 21:14:52,moss@astron.nl,12/4/2018,LT10_005,"689850, 689854",STATION,DATA-LOSS,CS002 flagging 100% of data,2,9-11,No,No,
+2/21/2019 21:15:41,moss@astron.nl,12/14/2018,LT10_005,691410,COBALT,CRASH,Aborted by Cobalt,1,10-11,No,No,
+2/21/2019 21:16:46,moss@astron.nl,12/15/2018,LC11_020,"691396, 691400, 691406",COBALT,CRASH,Aborted by Cobalt,8.33,2-10,No,No,main run failed rescheduled Jan 25th
+2/21/2019 21:17:52,moss@astron.nl,1/16/2019,LT10_004,692520,SYSTEM,CRASH,Aborted,0.25,14,No,No,
+2/21/2019 21:19:29,moss@astron.nl,2/11/2019,LT10_010,"695133, 695137, 695143",HUMAN,SETUP,wrong system specification,8.33,6-14,No,No,when scheduled only CS stations were selected
+2/25/2019 21:59:38,iacobelli@astron.nl,2/24/2019,SDF-PPE,696015,HUMAN,SETUP,The commissioning run was prepared on Friday for Sunday early morning. It was decided to be scheduled during the weekend but was missed.,4,12-16,No,No,SASid was not available because of editing in MOM required to put it back in open state and the provided ones correspond to the repetition
+2/26/2019 19:18:20,sarrvesh.ss@gmail.com,2/23/2019,LC11_009,695795,HUMAN,SETUP,Calibrator scans were not approved in MoM,8.33,19-02,No,No,
+3/21/2019 22:01:31,sarrvesh.ss@gmail.com,3/21/2019,LC11_005,"696,219,696,213,696,000",NETWORK,DATA-LOSS,100% data loss on 7 Dutch and 2 INT stations,4.33,0-4,No,No,
+3/26/2019 19:55:55,sarrvesh.ss@gmail.com,3/25/2019,LC11_005,0,HUMAN,SETUP,Operator failed to schedule the observation,4,13-17,No,No,
+4/12/2019 0:23:17,asabere@astron.nl,4/9/2019,LT10_002,701181,STATION,SETUP,The station was not initialized on time,5,19.00 - 24.00,No,Yes,There was a chance to observe the target for 7 hours of the scheduled 12 hours run. 
+4/24/2019 19:56:15,asabere@astron.nl,2/27/2019,LT10_005,0,STATION,SETUP,CS006 needed for the observation had a problem,1,5,No,No,The observation was cancelled because of the unavailability of CS006
+4/24/2019 21:50:40,asabere@astron.nl,3/25/2019,LT10_010,"699035, 699039, 699045]",HUMAN,SETUP,The runs were set for four (4) hours instead of eight (8) hours,8,9 - 17,Yes,No,
+4/25/2019 19:26:14,asabere@astron.nl,4/24/2019,LT10_006,703974,HUMAN,SETUP,The failure was partly due to software rollout and trigger observation LT10_003,7,11 - 18,Yes,No,The A12 obs. (part of LT10_006) rely on the start time in the setup. This changed due to the lightning triggered obs. but it was not communicated to the PI of the A12 obs.

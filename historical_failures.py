@@ -25,12 +25,18 @@ def plot_historical_failures(files,save_loc,cyc):
 
 		d = ascii.read(f,guess=False,delimiter=',')
 		print (d.keys())
-		dates = dates + list(d['DATE'])
-		hours = hours + list(d['OBSERVING HOURS LOST'])
+
+		if f.split('/')[-1].startswith('Cycle'):
+			dates = dates + [datetime.datetime.strptime(x,'%Y-%m-%d') for x in d['DATE']]
+			hours = hours + list(d['OBSERVING HOURS LOST'])
+		else:
+			print('New method!')
+			dates = dates + [datetime.datetime.strptime(x,'%m/%d/%Y') for x in d['Date of observation:']]
+			hours = hours + list(d['Number of hours lost:'])			
 
 
 	# Turn the dates into proper dates
-	dates = np.array([datetime.datetime.strptime(x,'%Y-%m-%d') for x in dates])
+	dates = np.array(dates)
 	hours = np.array(hours)
 
 	# Turn into something that can be plotted (?) need to sum the hours if on the same day...
